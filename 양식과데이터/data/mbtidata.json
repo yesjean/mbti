@@ -1,0 +1,338 @@
+[
+    {
+        "myMbti": "ENFP",
+        "description": "ENFP 유형은 사교적이고 창의적이며, 새로운 아이디어와 가능성을 탐구하는 경향이 있습니다. 다양성을 존중하며 자유롭고 열정적인 성향을 가집니다.",
+        "machedType": "INTJ",
+        "reason": "ENFP의 창의성과 에너지가 INTJ에게 영감을 줄 수 있고, INTJ의 계획성과 조직력이 ENFP에게 안정감을 줄 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "ENFP",
+        "description": "ENFP 유형은 사교적이고 창의적이며, 새로운 아이디어와 가능성을 탐구하는 경향이 있습니다. 다양성을 존중하며 자유롭고 열정적인 성향을 가집니다.",
+        "machedType": "INFJ",
+        "reason": "ENFP의 사교성과 창의성은 INFJ에게 새로운 관점을 제공할 수 있고, INFJ의 통찰력과 감성이 ENFP에게 깊이 있는 이해를 줄 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "ENFP",
+        "description": "ENFP 유형은 사교적이고 창의적이며, 새로운 아이디어와 가능성을 탐구하는 경향이 있습니다. 다양성을 존중하며 자유롭고 열정적인 성향을 가집니다.",
+        "machedType": "ENTP",
+        "reason": "ENFP와 ENTP는 둘 다 새로운 아이디어를 탐구하는 것을 즐기며, 활발하고 논리적인 토론을 통해 서로를 자극합니다. ENTP는 ENFP의 사교성과 창의성을 이해하고 존중하며, 함께 다양한 프로젝트에 도전할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "INTJ",
+        "description": "INTJ 유형은 논리적이고 전략적인 사고를 중시하며, 목표 달성을 위해 계획을 세우는 경향이 있습니다. 독립적이고 자기 주도적인 성향을 가집니다.",
+        "machedType": "ENFP",
+        "reason": "INTJ의 분석적 사고와 계획력이 ENFP의 창의성과 에너지를 보완합니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "INTJ",
+        "description": "INTJ 유형은 논리적이고 전략적인 사고를 중시하며, 목표 달성을 위해 계획을 세우는 경향이 있습니다. 독립적이고 자기 주도적인 성향을 가집니다.",
+        "machedType": "ENTP",
+        "reason": "INTJ와 ENTP는 서로의 아이디어와 계획을 존중하며, 협력하여 더 나은 결과를 도출할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "INTJ",
+        "description": "INTJ 유형은 논리적이고 전략적인 사고를 중시하며, 목표 달성을 위해 계획을 세우는 경향이 있습니다. 독립적이고 자기 주도적인 성향을 가집니다.",
+        "machedType": "INFJ",
+        "reason": "INTJ의 논리적 사고와 INFJ의 직관력은 상호 보완적이며 깊이 있는 관계를 형성할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "INFJ",
+        "description": "INFJ 유형은 직관력이 뛰어나며 감성적이고 이상적인 성향을 가집니다. 타인을 이해하고 돕는 데에 열정을 가지며, 깊이 있는 사랑과 유대를 중시합니다.",
+        "machedType": "ENFP",
+        "reason": "INFJ의 통찰력과 감성은 ENFP에게 깊이 있는 이해를 줄 수 있고, ENFP의 사교성과 창의성은 INFJ에게 새로운 관점을 제공할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "INFJ",
+        "description": "INFJ 유형은 직관력이 뛰어나며 감성적이고 이상적인 성향을 가집니다. 타인을 이해하고 돕는 데에 열정을 가지며, 깊이 있는 사랑과 유대를 중시합니다.",
+        "machedType": "INTJ",
+        "reason": "INFJ의 직관력과 감성은 INTJ의 논리적 사고와 잘 어울리며, 깊이 있는 관계를 형성할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "INFJ",
+        "description": "INFJ 유형은 직관력이 뛰어나며 감성적이고 이상적인 성향을 가집니다. 타인을 이해하고 돕는 데에 열정을 가지며, 깊이 있는 사랑과 유대를 중시합니다.",
+        "machedType": "ENFJ",
+        "reason": "INFJ와 ENFJ는 서로의 감성과 직관을 이해하며, 깊이 있는 정서적 유대감을 형성할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "ENTP",
+        "description": "ENTP 유형은 논리적이고 창의적이며, 새로운 아이디어를 탐구하고 실험하는 것을 즐깁니다. 적극적이고 혁신적인 성향을 가집니다.",
+        "machedType": "INFJ",
+        "reason": "ENTP의 논리와 창의성은 INFJ에게 영감을 줄 수 있으며, INFJ의 통찰력과 감성은 ENTP에게 새로운 관점을 제공할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "ENTP",
+        "description": "ENTP 유형은 논리적이고 창의적이며, 새로운 아이디어를 탐구하고 실험하는 것을 즐깁니다. 적극적이고 혁신적인 성향을 가집니다.",
+        "machedType": "INTJ",
+        "reason": "ENTP와 INTJ는 서로의 아이디어와 계획을 존중하며, 협력하여 더 나은 결과를 도출할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "ENTP",
+        "description": "ENTP 유형은 논리적이고 창의적이며, 새로운 아이디어를 탐구하고 실험하는 것을 즐깁니다. 적극적이고 혁신적인 성향을 가집니다.",
+        "machedType": "ENFP",
+        "reason": "ENTP와 ENFP는 둘 다 새로운 아이디어를 탐구하는 것을 좋아하여 활발한 토론과 협력이 가능합니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "ISFJ",
+        "description": "ISFJ 유형은 친절하고 배려심이 깊으며, 안정과 신뢰를 중시하는 성향을 가집니다. 실용적이고 현실적인 접근을 선호합니다.",
+        "machedType": "ESTP",
+        "reason": "ISFJ의 배려심과 안정성은 ESTP에게 편안함을 줄 수 있고, ESTP의 활력과 모험심은 ISFJ에게 새로운 경험을 제공할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ISFJ",
+        "description": "ISFJ 유형은 친절하고 배려심이 깊으며, 안정과 신뢰를 중시하는 성향을 가집니다. 실용적이고 현실적인 접근을 선호합니다.",
+        "machedType": "ESFJ",
+        "reason": "ISFJ와 ESFJ는 서로의 감성과 책임감을 이해하며, 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ISFJ",
+        "description": "ISFJ 유형은 친절하고 배려심이 깊으며, 안정과 신뢰를 중시하는 성향을 가집니다. 실용적이고 현실적인 접근을 선호합니다.",
+        "machedType": "ISTJ",
+        "reason": "ISFJ와 ISTJ는 서로의 신뢰성과 실용성을 이해하며, 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ESFJ",
+        "description": "ESFJ 유형은 사교적이고 외향적이며, 타인과의 관계를 중시하는 경향이 있습니다. 책임감이 강하고 사회적으로 활동적인 성향을 가집니다.",
+        "machedType": "ISFP",
+        "reason": "ESFJ의 사교성과 돌봄은 ISFP에게 안정감을 줄 수 있고, ISFP의 독립성과 창의성은 ESFJ에게 영감을 줄 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ESFJ",
+        "description": "ESFJ 유형은 사교적이고 외향적이며, 타인과의 관계를 중시하는 경향이 있습니다. 책임감이 강하고 사회적으로 활동적인 성향을 가집니다.",
+        "machedType": "ISFJ",
+        "reason": "ESFJ와 ISFJ는 서로의 감성과 책임감을 이해하며, 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ESFJ",
+        "description": "ESFJ 유형은 사교적이고 외향적이며, 타인과의 관계를 중시하는 경향이 있습니다. 책임감이 강하고 사회적으로 활동적인 성향을 가집니다.",
+        "machedType": "ESTJ",
+        "reason": "ESFJ와 ESTJ는 서로의 신뢰성과 실용성을 이해하며, 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ISTJ",
+        "description": "ISTJ 유형은 실용적이고 조직적인 사고를 중시하며, 안정과 신뢰를 중요시합니다. 현실적이고 실용적인 해결책을 찾는 경향이 있습니다.",
+        "machedType": "ISFJ",
+        "reason": "ISTJ와 ISFJ는 서로의 신뢰성과 실용성을 이해하며, 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ISTJ",
+        "description": "ISTJ 유형은 실용적이고 조직적인 사고를 중시하며, 안정과 신뢰를 중요시합니다. 현실적이고 실용적인 해결책을 찾는 경향이 있습니다.",
+        "machedType": "ESTJ",
+        "reason": "ISTJ와 ESTJ는 실용적이고 조직적인 면에서 서로를 잘 이해하며 협력할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ISTJ",
+        "description": "ISTJ 유형은 실용적이고 조직적인 사고를 중시하며, 안정과 신뢰를 중요시합니다. 현실적이고 실용적인 해결책을 찾는 경향이 있습니다.",
+        "machedType": "INTJ",
+        "reason": "ISTJ의 신뢰성과 INTJ의 계획성은 서로를 보완하며 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ESTJ",
+        "description": "ESTJ 유형은 실용적이고 조직적인 사고를 중시하며, 안정과 신뢰를 중요시합니다. 목표 달성을 위해 계획을 세우고 리더십을 발휘하는 경향이 있습니다.",
+        "machedType": "ISTJ",
+        "reason": "ESTJ와 ISTJ는 실용적이고 조직적인 면에서 서로를 잘 이해하며 협력할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ESTJ",
+        "description": "ESTJ 유형은 실용적이고 조직적인 사고를 중시하며, 안정과 신뢰를 중요시합니다. 목표 달성을 위해 계획을 세우고 리더십을 발휘하는 경향이 있습니다.",
+        "machedType": "ESFJ",
+        "reason": "ESTJ와 ESFJ는 서로의 신뢰성과 실용성을 이해하며, 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ESTJ",
+        "description": "ESTJ 유형은 실용적이고 조직적인 사고를 중시하며, 안정과 신뢰를 중요시합니다. 목표 달성을 위해 계획을 세우고 리더십을 발휘하는 경향이 있습니다.",
+        "machedType": "ENTJ",
+        "reason": "ESTJ와 ENTJ는 강한 리더십과 조직력을 바탕으로 협력할 수 있습니다.",
+        "color": "#2391afff"
+    },
+    {
+        "myMbti": "ISFP",
+        "description": "ISFP 유형은 독립적이고 창의적이며, 자신만의 가치관을 중시합니다. 예술적이고 감성적인 면이 강하며, 자유로운 생활을 추구하는 경향이 있습니다.",
+        "machedType": "ESFJ",
+        "reason": "ISFP의 독립성과 창의성은 ESFJ에게 영감을 줄 수 있고, ESFJ의 사교성과 돌봄은 ISFP에게 안정감을 줄 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ISFP",
+        "description": "ISFP 유형은 독립적이고 창의적이며, 자신만의 가치관을 중시합니다. 예술적이고 감성적인 면이 강하며, 자유로운 생활을 추구하는 경향이 있습니다.",
+        "machedType": "ENFP",
+        "reason": "ISFP의 창의성과 ENFP의 사교성은 서로에게 영감을 줄 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ISFP",
+        "description": "ISFP 유형은 독립적이고 창의적이며, 자신만의 가치관을 중시합니다. 예술적이고 감성적인 면이 강하며, 자유로운 생활을 추구하는 경향이 있습니다.",
+        "machedType": "ESFP",
+        "reason": "ISFP와 ESFP는 서로의 독립성과 창의성을 이해하며, 즐거운 관계를 형성할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ESFP",
+        "description": "ESFP 유형은 사교적이고 외향적이며, 타인과의 관계를 중시하는 경향이 있습니다. 활기차고 재미있는 활동을 즐기며, 적응력이 강합니다.",
+        "machedType": "ISFP",
+        "reason": "ESFP와 ISFP는 서로의 독립성과 창의성을 이해하며, 즐거운 관계를 형성할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ESFP",
+        "description": "ESFP 유형은 사교적이고 외향적이며, 타인과의 관계를 중시하는 경향이 있습니다. 활기차고 재미있는 활동을 즐기며, 적응력이 강합니다.",
+        "machedType": "ENFP",
+        "reason": "ESFP와 ENFP는 둘 다 사교적이고 창의적이며, 활발한 관계를 형성할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ESFP",
+        "description": "ESFP 유형은 사교적이고 외향적이며, 타인과의 관계를 중시하는 경향이 있습니다. 활기차고 재미있는 활동을 즐기며, 적응력이 강합니다.",
+        "machedType": "ESTP",
+        "reason": "ESFP와 ESTP는 활기차고 모험을 즐기며, 함께 많은 경험을 할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ISTP",
+        "description": "ISTP 유형은 논리적이고 분석적인 사고를 중시하며, 문제 해결에 있어 실용적인 접근을 선호합니다. 독립적이고 조용한 성향을 가집니다.",
+        "machedType": "ESTP",
+        "reason": "ISTP와 ESTP는 실용적이고 모험심이 강하며, 함께 많은 경험을 할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ISTP",
+        "description": "ISTP 유형은 논리적이고 분석적인 사고를 중시하며, 문제 해결에 있어 실용적인 접근을 선호합니다. 독립적이고 조용한 성향을 가집니다.",
+        "machedType": "INTP",
+        "reason": "ISTP와 INTP는 논리적이고 분석적인 면에서 서로를 잘 이해하며 협력할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ISTP",
+        "description": "ISTP 유형은 논리적이고 분석적인 사고를 중시하며, 문제 해결에 있어 실용적인 접근을 선호합니다. 독립적이고 조용한 성향을 가집니다.",
+        "machedType": "ENTP",
+        "reason": "ISTP와 ENTP는 둘 다 논리적이고 창의적이며, 함께 새로운 아이디어를 탐구할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ESTP",
+        "description": "ESTP 유형은 활기차고 모험을 즐기며, 현실적이고 실용적인 접근을 취하는 경향이 있습니다. 적응력이 강하고 자유로운 삶을 추구합니다.",
+        "machedType": "ISFJ",
+        "reason": "ESTP의 활력과 모험심은 ISFJ에게 새로운 경험을 제공할 수 있고, ISFJ의 배려심과 안정성은 ESTP에게 편안함을 줄 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ESTP",
+        "description": "ESTP 유형은 활기차고 모험을 즐기며, 현실적이고 실용적인 접근을 취하는 경향이 있습니다. 적응력이 강하고 자유로운 삶을 추구합니다.",
+        "machedType": "ESFP",
+        "reason": "ESTP와 ESFP는 활기차고 모험을 즐기며, 함께 많은 경험을 할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "ESTP",
+        "description": "ESTP 유형은 활기차고 모험을 즐기며, 현실적이고 실용적인 접근을 취하는 경향이 있습니다. 적응력이 강하고 자유로운 삶을 추구합니다.",
+        "machedType": "ISTP",
+        "reason": "ESTP와 ISTP는 실용적이고 모험심이 강하며, 함께 많은 경험을 할 수 있습니다.",
+        "color": "#deae12ff"
+    },
+    {
+        "myMbti": "INTP",
+        "description": "INTP 유형은 논리적이고 분석적인 사고를 중시하며, 독창적인 문제 해결 능력을 가집니다. 자유로운 사색을 즐기며, 자신만의 이론을 개발하는 데 열정적입니다.",
+        "machedType": "ENTP",
+        "reason": "INTP와 ENTP는 둘 다 논리적이고 창의적이며, 함께 새로운 아이디어를 탐구할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "INTP",
+        "description": "INTP 유형은 논리적이고 분석적인 사고를 중시하며, 독창적인 문제 해결 능력을 가집니다. 자유로운 사색을 즐기며, 자신만의 이론을 개발하는 데 열정적입니다.",
+        "machedType": "INTJ",
+        "reason": "INTP와 INTJ는 분석적이고 전략적인 면에서 서로를 잘 이해하며 협력할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "INTP",
+        "description": "INTP 유형은 논리적이고 분석적인 사고를 중시하며, 독창적인 문제 해결 능력을 가집니다. 자유로운 사색을 즐기며, 자신만의 이론을 개발하는 데 열정적입니다.",
+        "machedType": "INFJ",
+        "reason": "INTP의 논리와 INFJ의 직관력은 상호 보완적이며 깊이 있는 관계를 형성할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "ENTJ",
+        "description": "ENTJ 유형은 목표 지향적이고 강력한 리더십을 발휘하는 경향이 있습니다. 전략적이고 조직적인 사고를 통해 목표 달성을 추구합니다.",
+        "machedType": "INTJ",
+        "reason": "ENTJ와 INTJ는 강한 리더십과 조직력을 바탕으로 협력할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "ENTJ",
+        "description": "ENTJ 유형은 목표 지향적이고 강력한 리더십을 발휘하는 경향이 있습니다. 전략적이고 조직적인 사고를 통해 목표 달성을 추구합니다.",
+        "machedType": "ESTJ",
+        "reason": "ENTJ와 ESTJ는 강한 리더십과 실용성을 바탕으로 협력할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "ENTJ",
+        "description": "ENTJ 유형은 목표 지향적이고 강력한 리더십을 발휘하는 경향이 있습니다. 전략적이고 조직적인 사고를 통해 목표 달성을 추구합니다.",
+        "machedType": "ENTP",
+        "reason": "ENTJ와 ENTP는 창의적이고 논리적인 면에서 서로를 잘 이해하며 협력할 수 있습니다.",
+        "color": "#75488fff"
+    },
+    {
+        "myMbti": "ENFJ",
+        "description": "ENFJ 유형은 타인을 돕고 이끄는 데 열정적이며, 직관력과 감성적인 이해력을 강조합니다. 타인의 성장과 발전을 촉진하는 데 관심을 가집니다.",
+        "machedType": "INFJ",
+        "reason": "ENFJ와 INFJ는 서로의 감성과 직관을 이해하며, 깊이 있는 정서적 유대감을 형성할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "ENFJ",
+        "description": "ENFJ 유형은 타인을 돕고 이끄는 데 열정적이며, 직관력과 감성적인 이해력을 강조합니다. 타인의 성장과 발전을 촉진하는 데 관심을 가집니다.",
+        "machedType": "ENFP",
+        "reason": "ENFJ와 ENFP는 둘 다 사교적이고 감성적이며, 활발한 관계를 형성할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "ENFJ",
+        "description": "ENFJ 유형은 타인을 돕고 이끄는 데 열정적이며, 직관력과 감성적인 이해력을 강조합니다. 타인의 성장과 발전을 촉진하는 데 관심을 가집니다.",
+        "machedType": "ESFJ",
+        "reason": "ENFJ와 ESFJ는 서로의 감성과 책임감을 이해하며, 안정적인 관계를 형성할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "INFP",
+        "description": "INFP는 감성적이고 창의적인 성향으로, 내적 가치와 이상을 중시하며 예술적 표현을 즐기는 유형입니다.",
+        "machedType": "ENFJ",
+        "reason": "ENFJ는 친절하고 따뜻한 성향으로 INFP의 감수성과 깊이 있는 이해를 공유할 수 있습니다. ENFJ는 다양한 사람들과 원활하게 소통하며 인간관계를 중시하는 성향이 있어 INFP의 진솔한 감정을 받아들이고 지원할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "INFP",
+        "description": "INFP는 감성적이고 창의적인 성향으로, 내적 가치와 이상을 중시하며 예술적 표현을 즐기는 유형입니다.",
+        "machedType": "INFJ",
+        "reason": "INFJ는 깊이 있는 통찰력과 감정적 지혜를 가지고 있어 INFP의 깊이 있는 감정과 이상적인 목표를 이해할 수 있습니다. 두 유형 모두 감성적이며 직관력이 뛰어나기 때문에 서로의 감정을 공유하고 깊은 이해를 형성할 수 있습니다.",
+        "color": "#23af6e"
+    },
+    {
+        "myMbti": "INFP",
+        "description": "INFP는 감성적이고 창의적인 성향으로, 내적 가치와 이상을 중시하며 예술적 표현을 즐기는 유형입니다.",
+        "machedType": "ENFP",
+        "reason": "ENFP는 개방적이고 창의적인 성향으로, INFP와 함께 새로운 아이디어를 탐구하고 다양한 가능성을 모색할 수 있습니다. 두 유형은 모두 상상력이 풍부하고 탐구심이 강한 면이 있어 서로에게 영감을 주고 새로운 시각을 제공할 수 있습니다.",
+        "color": "#23af6e"
+    }
+]

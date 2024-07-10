@@ -90,29 +90,73 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         buttonsContainer.appendChild(button);
     });
-
-    // 매칭 결과 보여주기
     function showMatches(mbti) {
         const matches = mbtiMatches[mbti];
         let html = `<h2>Best Matches for ${mbti}:</h2><ul>`;
-        matches.forEach(match => {
-            html += `<li><strong>${match.type}</strong>: ${match.reason}</li>`;
+        matches.forEach((match, index) => {
+            html += `<li>
+                <input type="checkbox" id="match-${index}" value="${match.type}">
+                <label for="match-${index}"><strong>${match.type}</strong>: ${match.reason}</label>
+            </li>`;
         });
         html += `</ul>`;
         resultDiv.innerHTML = html;
-
-        const matchData = {
-            mbti: {
-                values: matches.map(match => ({
-                    type: match.type,
-                    reason: match.reason
-                }))
-            }
-        };
-
-        // 팝업 창 열기
-        openPopup(matchData);
+    
+        const button = document.createElement("button");
+        button.textContent = '리포트 생성';
+        button.classList.add("report-button");
+        resultDiv.appendChild(button);
+        button.addEventListener('click', () => {
+            const selectedMatches = matches.filter((_, index) => document.getElementById(`match-${index}`).checked);
+            const selectedTypes = selectedMatches.map(match => match.type);
+            window.location.href = `report.html?selectedTypes=${encodeURIComponent(JSON.stringify(selectedTypes))}`;
+        });
     }
+    // 매칭 결과 보여주기
+    function showMatches(mbti) {
+        const matches = mbtiMatches[mbti];
+        let html = `<h2>${mbti}와 궁합이 좋은 MBTI</h2><ul>`;
+        
+        // 전체 선택 체크박스 추가
+        html += `<li>
+                    <input type="checkbox" id="select-all" value="select-all">
+                    <label for="select-all"><strong>전체 선택</strong></label>
+                </li>`;
+        
+        matches.forEach((match, index) => {
+            html += `<li>
+                <input type="checkbox" id="match-${index}" value="${match.type}">
+                <label for="match-${index}"><strong>${match.type}</strong>: ${match.reason}</label>
+            </li>`;
+        });
+        html += `</ul>`;
+        resultDiv.innerHTML = html;
+    
+        const button = document.createElement("button");
+        button.textContent = '리포트 생성';
+        button.classList.add("report-button");
+        resultDiv.appendChild(button);
+    
+        // 전체 선택 체크박스 이벤트 핸들러
+        document.getElementById('select-all').addEventListener('change', (event) => {
+            const isChecked = event.target.checked;
+            matches.forEach((_, index) => {
+                document.getElementById(`match-${index}`).checked = isChecked;
+            });
+        });
+    
+        button.addEventListener('click', () => {
+            const selectedMatches = matches.filter((_, index) => document.getElementById(`match-${index}`).checked);
+            const selectedTypes = selectedMatches.map(match => match.type);
+            const data = {
+                mbti: mbti,
+                selectedTypes: selectedTypes
+            };
+            window.location.href = `report.html?data=${encodeURIComponent(JSON.stringify(data))}`;
+        });
+    }
+    
+    
 });
 
 

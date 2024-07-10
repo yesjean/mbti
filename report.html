@@ -11,11 +11,30 @@
     <link href="./js/realreport/realreport.css" rel="stylesheet" />
     <script src="./js/realreport/realreport.js"></script>
     <script src="./reportForm.js"></script>
+    <script src="./data.js"></script>
+    <script src="./chart-data.js"></script>
+    <style>
+      #reportContainer {
+        height: 100%;
+      }
+      .research-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70px;
+        justify-content: center;
+      }
+    </style>
   </head>
   <body>
+    <div class="research-container">
+      <button onclick="research()">설문조사 바로가기</button>
+    </div>
     <div id="reportContainer"></div>
-
     <script>
+      function research() {
+        window.location.href = 'research.html'
+      }
       var realReportLic =
         "upVcPE+wPOkcfqywe+clVN+UVTCvO3is+83EYTz6U/sTXJR8Yw8Y0WXyjOMqbrgvr3+iyFPC2UvWntFnlQAvG/WiN+dO0JtjVohH/45jQUC/9tdzLD/UUBWJVz4BABQVdAeQQV4lYgQ=";
 
@@ -24,7 +43,21 @@
         const dataParam = params.get("data");
         const matchData = JSON.parse(decodeURIComponent(dataParam));
 
-        const viewer = new RealReport.ReportViewer("reportContainer", form, matchData);
+        const data = dataSet
+        const filteredMasterData = dataSet.mbtimaster.values.filter(item => item.myMbti === matchData.mbti);
+        // const filteredPercentData = dataSet.mbtiPercent.values.filter(item => item.myMbti === matchData.mbti);
+        const filteredData = dataSet.mbtidata.values.filter(item => 
+          item.myMbti === matchData.mbti && matchData.selectedTypes.includes(item.machedType)
+        );
+        const filteredChartData = chartData.find(item => item.myMbti === matchData.mbti)
+
+        data.mbtimaster.values = filteredMasterData
+        // data.mbtiPercent.values = filteredPercentData
+        data.mbtiChart.values = filteredChartData
+        data.mbtidata.values = filteredData
+        console.log(filteredData)
+
+        const viewer = new RealReport.ReportViewer("reportContainer", form, dataSet);
 
         viewer.preview();
       });
