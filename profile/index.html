@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./js/highcharts/highcharts.css" rel="stylesheet" />
+    <script src="./js/highcharts/highcharts.js"></script>
+    <script src="./js/highcharts/highcharts-more.js"></script>
+
+    <script src="./js/pdfkit.js"></script>
+
+    <link href="./js/realreport/realreport.css" rel="stylesheet" />
+    <script src="./js/realreport/realreport.js"></script>
+    <script src="./reportForm.js"></script>
+    <title>Developer Profile Generator</title>
+    <style>
+        .category {
+            margin-bottom: 20px;
+        }
+
+        .category button {
+            margin-right: 10px;
+            margin-bottom: 5px;
+            padding: 8px 12px;
+            border: none;
+            background-color: #f0f0f0;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .category button.selected {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        #profile-report {
+            margin-top: 20px;
+        }
+
+        #reportContainer {
+            height: 100vh;
+        }
+
+        .research-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 70px;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Developer Profile Generator</h1>
+
+    <div id="profile-form">
+        <div class="category">
+            <h2>기본 정보</h2>
+            <label for="name">이름:</label>
+            <input type="text" id="name"><br><br>
+            <label for="email">이메일:</label>
+            <input type="text" id="email-local">
+            <select id="email-domain">
+                <option value="gmail.com">gmail.com</option>
+                <option value="naver.com">naver.com</option>
+                <option value="daum.net">daum.net</option>
+                <option value="kakao.com">kakao.com</option>
+            </select>
+            <br><br>
+            <label for="address">주소:</label>
+            <button onclick="selectOption('address', '서울', this)">서울</button>
+            <button onclick="selectOption('address', '부산', this)">부산</button>
+            <button onclick="selectOption('address', '대구', this)">대구</button>
+            <button onclick="selectOption('address', '인천', this)">인천</button>
+            <button onclick="selectOption('address', '광주', this)">광주</button>
+            <button onclick="selectOption('address', '대전', this)">대전</button>
+            <button onclick="selectOption('address', '울산', this)">울산</button>
+            <button onclick="selectOption('address', '세종', this)">세종</button>
+            <br><br>
+            <label for="job">직무:</label>
+            <button onclick="selectOption('job', '프론트엔드 개발자', this)">프론트엔드 개발자</button>
+            <button onclick="selectOption('job', '백엔드 개발자', this)">백엔드 개발자</button>
+            <button onclick="selectOption('job', '풀스택 개발자', this)">풀스택 개발자</button>
+            <button onclick="selectOption('job', '모바일 앱 개발자', this)">모바일 앱 개발자</button>
+            <button onclick="selectOption('job', '데브옵스 엔지니어', this)">데브옵스 엔지니어</button>
+            <button onclick="selectOption('job', '데이터 엔지니어', this)">데이터 엔지니어</button>
+            <button onclick="selectOption('job', '소프트웨어 엔지니어', this)">소프트웨어 엔지니어</button>
+            <br><br>
+        </div>
+
+
+        <div class="category" id="languages">
+            <h2>Programming Languages</h2>
+            <button onclick="selectOption('languages', 'JavaScript', this)">JavaScript</button>
+            <button onclick="selectOption('languages', 'Python', this)">Python</button>
+            <button onclick="selectOption('languages', 'Java', this)">Java</button>
+            <button onclick="selectOption('languages', 'C++', this)">C++</button>
+        </div>
+
+        <div class="category" id="frameworks">
+            <h2>Frameworks</h2>
+            <button onclick="selectOption('frameworks', 'React', this)">React</button>
+            <button onclick="selectOption('frameworks', 'Angular', this)">Angular</button>
+            <button onclick="selectOption('frameworks', 'Django', this)">Django</button>
+            <button onclick="selectOption('frameworks', 'Spring', this)">Spring</button>
+        </div>
+
+        <div class="category" id="tools">
+            <h2>Tools</h2>
+            <button onclick="selectOption('tools', 'Git', this)">Git</button>
+            <button onclick="selectOption('tools', 'Docker', this)">Docker</button>
+            <button onclick="selectOption('tools', 'Webpack', this)">Webpack</button>
+            <button onclick="selectOption('tools', 'Jenkins', this)">Jenkins</button>
+        </div>
+
+        <div class="category" id="databases">
+            <h2>Databases</h2>
+            <button onclick="selectOption('databases', 'MySQL', this)">MySQL</button>
+            <button onclick="selectOption('databases', 'PostgreSQL', this)">PostgreSQL</button>
+            <button onclick="selectOption('databases', 'MongoDB', this)">MongoDB</button>
+            <button onclick="selectOption('databases', 'SQLite', this)">SQLite</button>
+        </div>
+
+        <div class="category" id="softSkills">
+            <h2>Soft Skills</h2>
+            <button onclick="selectOption('softSkills', 'Communication', this)">Communication</button>
+            <button onclick="selectOption('softSkills', 'Teamwork', this)">Teamwork</button>
+            <button onclick="selectOption('softSkills', 'Problem Solving', this)">Problem Solving</button>
+            <button onclick="selectOption('softSkills', 'Time Management', this)">Time Management</button>
+        </div>
+
+        <div class="category" id="experience">
+            <h2>Development Experience</h2>
+            <button onclick="selectOption('experience', 'Web Development', this)">Web Development</button>
+            <button onclick="selectOption('experience', 'Mobile Development', this)">Mobile Development</button>
+            <button onclick="selectOption('experience', 'Backend Development', this)">Backend Development</button>
+            <button onclick="selectOption('experience', 'Full Stack Development', this)">Full Stack Development</button>
+        </div>
+
+        <div class="category" id="projects">
+            <h2>Project Experience</h2>
+            <input type="text" id="project-name" placeholder="프로젝트 이름" />
+            <button onclick="addProjectInputs()">프로젝트 추가</button>
+            <div id="project-list"></div>
+        </div>
+
+        <div class="category" id="education">
+            <h2>Education</h2>
+            <button onclick="selectOption('education', 'Bachelor of Computer Science', this)">Bachelor of Computer
+                Science</button>
+            <button onclick="selectOption('education', 'Master of Software Engineering', this)">Master of Software
+                Engineering</button>
+            <button onclick="selectOption('education', 'Online Courses', this)">Online Courses</button>
+        </div>
+
+        <div class="category" id="certifications">
+            <h2>Certifications</h2>
+            <button onclick="selectOption('certifications', 'AWS Certified Solutions Architect', this)">AWS Certified
+                Solutions Architect</button>
+            <button onclick="selectOption('certifications', 'Certified Kubernetes Administrator', this)">Certified
+                Kubernetes Administrator</button>
+            <button
+                onclick="selectOption('certifications', 'Microsoft Certified: Azure Developer Associate', this)">Microsoft
+                Certified: Azure Developer Associate</button>
+        </div>
+        <input type="text" id="tagline" placeholder="나를 표현하는 한 줄 글귀" />
+
+        <button onclick="generateReport()">Generate Report</button>
+    </div>
+
+    <div id="profile-report"></div>
+
+    <div class="research-container">
+        <button onclick="research()">설문조사 바로가기</button>
+        <button onclick="onClickExportPdf()">pdf</button>
+    </div>
+    <div id="reportContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+<script>
+    function research() {
+        window.location.href = 'research.html'
+    }
+    const onClickExportPdf = function () {
+        const zoomSclae = viewer.zoom
+        base64convert('/js/pdffonts/PretendardGOV-Regular.otf', true).then(regularFont => {
+            base64convert('/js/pdffonts/PretendardGOV-Bold.otf', true).then(async boldFont => {
+                const fonts = [{
+                    name: 'regular',
+                    content: regularFont,
+                    style: 'normal',
+                    weight: 'normal',
+                },
+                {
+                    name: 'bold',
+                    content: boldFont,
+                    style: 'normal',
+                    weight: 'bold',
+                }];
+
+                if (viewer) {
+                    const options = {
+                        fonts,
+                        filename: 'sample-report',
+                        preview: false,
+                        // ownerPassword: '!QAZXSW2', // 소유자 암호
+                        // userPassword: '1qazxsw2', // 사용자 암호
+                        permissions: {
+                            printing: 'highResolution', // 'lowResolution' | 'highResolution' 인쇄 허용 여부
+                            modifying: true, // 파일 수정 허용 여부
+                            copying: true, // 텍스트 또는 그래픽 복사 허용 여부
+                            annotating: true, // 주석 및 양식 작성 허용 여부
+                            fillingForms: true, // 양식 작성 및 서명 허용 여부
+                            contentAccessibility: true, // 접근성을 위한 텍스트 복사 허용 여부
+                            documentAssembly: true,
+                        },
+                        pdfVersion: '1.7ext3'  // '1.3' | '1.4' | '1.5' | '1.6' | '1.7' | '1.7ext3'
+                    }
+                    viewer.zoom = 1
+                    viewer.exportPdf(options)
+                    viewer.zoom = zoomSclae
+                }
+            });
+        });
+    }
+
+    async function base64convert(url, split) {
+        const data = await fetch(url);
+        const blob = await data.blob();
+
+        return new Promise(resolve => {
+            const reader = new FileReader();
+            reader.readAsDataURL(blob);
+            reader.onloadend = () => {
+                const base64data = reader.result;
+                resolve(split ? base64data.split(',')[1] : base64data);
+            }
+        });
+    }
+</script>
+
+</html>

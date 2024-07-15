@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리테크 부스에 오신 것을 환영합니다.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .subtitle {
+            margin-bottom: 30px;
+        }
+        .qr-code {
+            width: 200px;
+            height: 200px;
+            margin-top: 30px;
+            background-image: url('qr_code.png');
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>우리테크 부스에 오신 것을 환영합니다.</h1>
+    <div class="subtitle">
+        <p>제품을 체험해보시고 사은품 받아가세요</p>
+    </div>
+    <div class="qr-code" onclick="window.location.href='main.html'"></div>
+</body>
+</html>
